@@ -27,6 +27,10 @@ An ESP32 (simulated in Wokwi) reads a DHT22 sensor every 3 seconds and POSTs the
 └────────────────┘
 ```
 
+## Live demo
+
+- **Wokwi project**: https://wokwi.com/projects/467436659652575233
+
 ## Repo layout
 
 ```
