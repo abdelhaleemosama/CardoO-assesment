@@ -1,0 +1,46 @@
+# Node / NestJS
+node_modules/
+dist/
+coverage/
+*.log
+.npm
+.eslintcache
+
+# Env
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Flutter / Dart
+flutter_app/.dart_tool/
+flutter_app/.flutter-plugins
+flutter_app/.flutter-plugins-dependencies
+flutter_app/.packages
+flutter_app/.pub-cache/
+flutter_app/.pub/
+flutter_app/build/
+flutter_app/ios/Pods/
+flutter_app/ios/.symlinks/
+flutter_app/ios/Flutter/Flutter.framework
+flutter_app/ios/Flutter/Flutter.podspec
+flutter_app/android/.gradle/
+flutter_app/android/local.properties
+flutter_app/android/captures/
+flutter_app/**/*.g.dart
+flutter_app/**/*.freezed.dart
+!flutter_app/lib/**/*.g.dart
+!flutter_app/lib/**/*.freezed.dart
+
+# Fly
+backend/.fly/
+
+# Postgres data volume (if mounted to host)
+pgdata/
